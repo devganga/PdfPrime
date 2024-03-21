@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "PdfPrime": {
+      "commandName": "Project",
+      "commandLineArgs": "-a \"checkin\" -e \"dev\"",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "dev"
+      }
+    },
+    "dev": {
+      "commandName": "Project",
+      "commandLineArgs": "-a \"checkin\" -e \"dev\" -i \"d:\\input\" -o \"d:\\output\"",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "dev"
+      }
+    },
+    "test": {
+      "commandName": "Project",
+      "commandLineArgs": "-a \"checkin\" -e \"test\"",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "test"
+      }
+    },
+    "prod": {
+      "commandName": "Project",
+      "commandLineArgs": "-a \"checkin\" -e \"production\"",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "prod"
+      }
+    }
+  }
+}
